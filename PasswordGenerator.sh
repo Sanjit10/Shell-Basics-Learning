@@ -1,10 +1,14 @@
 #!/bin/bash
 
+# anything after the "shabang" will be used as interpreter
+# bash is a terminal instance, shell is the interpreter of commands
+
 #Simple Password Generator
 
 echo "This is a simple password generator"
 echo "Please enter the length of the password: "
 read PASS_LENGTH
+
 echo "How many passwords would you like to generate"
 read SEQ_LENGTH
 
