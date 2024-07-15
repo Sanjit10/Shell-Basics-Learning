@@ -6,11 +6,9 @@
 #Simple Password Generator
 
 echo "This is a simple password generator"
-echo "Please enter the length of the password: "
-read PASS_LENGTH
+read -p "Please enter the length of the password: " PASS_LENGTH
 
-echo "How many passwords would you like to generate"
-read SEQ_LENGTH
+read -p "How many passwords would you like to generate: " SEQ_LENGTH
 
 for p in $(seq 1 $SEQ_LENGTH):
 do
